@@ -1,0 +1,152 @@
+html {
+    background: #808080; 
+    height: 100%; 
+}
+
+tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+     margin: 0;   
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    width: 730px;
+}
+
+
+header, main, footer {
+    background: #fff; 
+    border: 1px;
+    border-radius: 10px;
+}
+
+.html5 {
+    border-radius: 0;
+}
+.up {
+    display: block;
+     background: #fff; 
+    border-radius: 0 0 10px 10px;
+   padding: 0 5px 5px;
+}
+
+main {
+    padding: 5px 5px;
+}
+a img {
+    width: 138px;
+    float: left;
+}
+header h1 {
+    float:left;
+    margin-left: 40px;
+}
+
+nav {
+    clear: both;
+}
+/*Обнуляем отступы*/
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;   
+}
+ 
+/*Задаём параметры блока, содержащего основное меню*/
+#menu {
+    display:block;
+    text-align: center;
+}
+ 
+/*Задаём стили для разделов нашего меню*/
+#menu > li {
+    display:inline-block;
+    position:relative;
+}
+
+
+ 
+/*Стили для скрытого выпадающего меню*/
+#menu > li > ul {
+    position:absolute;
+    display:none;
+    padding: 4px;
+    text-align: left;
+ 
+}
+ 
+/*Делаем скрытую часть видимой*/
+#menu > li:hover > ul {
+    border: 1px solid black;
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.technologies > li {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.technologies {
+    padding-left: 37px;
+}
+
+dt, dl {
+    margin: 0;
+}
+
+
+aside {
+  float: right;
+  margin: 10px 5px 5px;
+  width: 30%;
+  border-radius: 10px;
+  background: #C1C1C1;
+  font-size: 13px;
+    padding: 0 5px;
+}
+
+.css, .js {
+    margin: 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+button {
+    width: 52px;
+    display:block;
+}
+.equally {
+    height: 45px;
+}
+
+.zero {
+    width: 108px;
+}
+
+.result {
+    width: 80px;
+}
+
+.display {
+    box-sizing: border-box;
+    width: 275px;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
